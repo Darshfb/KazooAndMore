@@ -16,20 +16,5 @@ import java.time.Duration;
         plugin = {"pretty", "html:target/cucumber-html-report"},
         dryRun = true)
 public class TestRunner extends AbstractTestNGCucumberTests {
-    public static WebDriver driver;
 
-    @Before
-    public void startDriver() {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(120));
-        driver.get("http://kazoositedev.softlinktest.com/home");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(120));
-
-    }
-
-    @After
-    public void stopDriver() {
-        driver.quit();
-    }
 }

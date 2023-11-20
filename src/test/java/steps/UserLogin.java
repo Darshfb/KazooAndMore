@@ -1,16 +1,10 @@
 package steps;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import pages.HomePage;
 import pages.LoginPage;
-import tests.TestBase;
-
-import java.time.Duration;
 
 import static tests.TestBase.driver;
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.27" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="UserLoginSuccessfully" name="To login with valid data" time="0.016">
+<failure/>
+<system-out><![CDATA[
+Given User opens home page..................................................undefined
+When User fill email "mostafamahmoudaboads@gmail.com" and password "AB123456" to can login.skipped
+Then User should navigate to home page......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User register successfully" name="User Register with valid email &amp; password" time="0.002">
+<failure/>
+<system-out><![CDATA[
+Given User opens home page..................................................undefined
+When User navigate to register page.........................................skipped
+Then User fill his data.....................................................skipped
+And Click on register.......................................................skipped
+Then Navigate to home page..................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

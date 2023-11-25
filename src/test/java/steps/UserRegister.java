@@ -9,6 +9,7 @@ import pages.RegisterPage;
 
 import static tests.TestBase.driver;
 
+
 public class UserRegister {
     HomePage homePage;
     RegisterPage registerPage;
